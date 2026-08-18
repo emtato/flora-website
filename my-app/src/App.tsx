@@ -169,7 +169,7 @@ function App() {
                     </div>
                     <div className="hero-portrait">
                         <div className="portrait-frame">
-                            <img src={profilePhoto} alt="Flora Li, real estate broker"/>
+                            <img src={profilePhoto} alt="Flora Li, Broker · MBA · MCNE"/>
                             <p className="portrait-note"><span>Flora Li</span> Broker · MBA · MCNE</p>
                         </div>
                         <p className="vertical-note">Professional expertise · Personal attention</p>
@@ -311,9 +311,11 @@ function App() {
 
             <footer className="site-footer">
                 <div className="footer-brand"><span className="brand-mark light-mark">FL</span>
-                    <div><strong>Flora Li</strong><span>Real Estate Broker</span></div>
+                    <div><strong>Flora Li</strong>
+                        <small>Broker · MBA · MCNE</small>
+                    </div>
                 </div>
-                <div className="footer-address"><span>Bay Street Group Inc. Brokerage</span><span>8300 Woodbine Ave, Suite 500, Markham, ON L3R 9Y7</span><a
+                <div className="footer-address"><span>Bay Street Integrity Reality Inc.</span><span>8300 Woodbine Ave, Suite 519, Markham, ON L3R 9Y7</span><a
                     href="mailto:flora.fang.li@gmail.com">flora.fang.li@gmail.com</a></div>
                 <div className="footer-side"><a href="#top">Back to top
                     ↑</a><span>© {new Date().getFullYear()} Flora Li</span></div>
