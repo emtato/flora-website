@@ -114,14 +114,14 @@ h1 em, h2 em { color: var(--sage-dark); font-weight: 400; }
 .review-card .stars { margin-top: 25px; color: #fbbc04; font-size: 14px; letter-spacing: .15em; }
 .review-card blockquote { margin: 21px 0 28px; color: #3c413a; font-family: var(--serif); font-size: clamp(17px, 1.35vw, 21px); line-height: 1.46; }
 .review-source { display: flex; justify-content: space-between; gap: 16px; margin-top: auto; padding-top: 20px; border-top: 1px solid var(--line); font-size: 9px; font-weight: 600; letter-spacing: .11em; text-decoration: none; text-transform: uppercase; }
-.contact-section { display: grid; grid-template-columns: 1fr 1.2fr; gap: 11vw; background: var(--paper); }
+.contact-section { display: grid; grid-template-columns: 1fr 1.2fr; gap: 7vw; background: var(--paper); }
 .contact-title .eyebrow { margin-bottom: 32px; }
 .contact-title > p:last-child { max-width: 480px; margin: 32px 0 0; color: #62675e; font-size: 15px; line-height: 1.75; }
 .contact-details { align-self: center; border-top: 1px solid var(--line); }
 .contact-line { display: grid; grid-template-columns: 1fr 1.4fr auto; align-items: center; gap: 18px; min-height: 93px; border-bottom: 1px solid var(--line); text-decoration: none; }
 .contact-line > span { color: #6d7269; font-size: 9px; letter-spacing: .13em; text-transform: uppercase; }
 .contact-line strong { min-width: 0; overflow-wrap: anywhere; font-family: var(--serif); font-size: clamp(21px, 2.1vw, 30px); font-weight: 400; }
-.contact-line i { width: 36px; height: 36px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; font-style: normal; transition: background .2s, color .2s; }
+.contact-line i { width: 43px; height: 43px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; font-style: normal; transition: background .2s, color .2s; }
 .contact-line:hover i { background: var(--ink); color: #fff; }
 .site-footer { position: relative; min-height: 285px; padding: 62px clamp(28px, 6vw, 90px) 34px; display: grid; grid-template-columns: 1fr 1.4fr .7fr; gap: 50px; align-items: start; background: var(--ink); color: var(--paper); }
 .footer-brand { display: flex; align-items: center; gap: 15px; }

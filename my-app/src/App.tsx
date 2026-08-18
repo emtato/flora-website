@@ -296,7 +296,7 @@ function App() {
                            href="tel:+19054668776"><span>Mobile</span><strong>905.466.8776</strong><i
                             aria-hidden="true">↗</i></a>
                         <a className="contact-line"
-                           href="weixin://dl/profile/?florali0956"><span>WeChat ID</span><strong>florali0956</strong><i
+                           href="weixin://dl/profile/?florali0956"><span>WeChat ID</span><strong>FloraLi0956</strong><i
                             aria-hidden="true">↗</i></a>
                         <a className="contact-line"
                            href="mailto:flora.fang.li@gmail.com"><span>Email</span><strong>Flora.Fang.Li@gmail.com</strong><i
