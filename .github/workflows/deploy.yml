@@ -32,7 +32,7 @@ jobs:
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: ./my-app
 
       - name: Deploy
         id: deployment
