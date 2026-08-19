@@ -1,18 +1,19 @@
 import {useState} from 'react'
 import profilePhoto from './assets/Flora Li Profile Photo.jpeg'
 import './App.css'
+import marketWatch from "./assets/IMG_2830.jpeg"
 
 const services = [
     {
         number: '01',
         title: 'Buy and Sell with confidence',
-        copy: 'Thoughtful positioning, polished presentation, and clear guidance from pricing through closing.',
+        copy: 'attentive listening, personalized guidance with experience and integrity',
         link: 'Discuss selling',
     },
     {
         number: '02',
         title: 'Find the right home',
-        copy: 'A focused search shaped around your priorities, with candid advice at every viewing and offer.',
+        copy: 'Help clients understand their needs and priorities, plan, and take action at the right timing.',
         link: 'Start your search',
     },
     {
@@ -134,7 +135,7 @@ function App() {
                 <nav id="site-nav" className={menuOpen ? 'nav-open' : ''} aria-label="Primary navigation">
                     <a href="#about" onClick={closeMenu}>About</a>
                     <a href="#services" onClick={closeMenu}>Services</a>
-                    <a href="#approach" onClick={closeMenu}>Approach</a>
+                    <a href={marketWatch} onClick={closeMenu}>Market Watch</a>
                     <a href="#contact" onClick={closeMenu}>Contact</a>
                     <a className="nav-call" href="tel:+19054668776" onClick={closeMenu}>Call Flora</a>
                 </nav>
@@ -260,7 +261,7 @@ function App() {
                     <div className="contact-title">
                         <p className="eyebrow"><span/> Start a conversation</p>
                         <h2>Thinking about<br/>your next move?</h2>
-                        <p>Tell Flora what you have in mind. No pressure: just straightforward advice.</p>
+                        <p>Tell Flora what you have in mind. No pressure: customized service.</p>
                     </div>
                     <div className="contact-details">
                         <a className="contact-line"
