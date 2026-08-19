@@ -5,7 +5,7 @@ import './App.css'
 const services = [
     {
         number: '01',
-        title: 'Sell with confidence',
+        title: 'Buy and Sell with confidence',
         copy: 'Thoughtful positioning, polished presentation, and clear guidance from pricing through closing.',
         link: 'Discuss selling',
     },
@@ -17,17 +17,12 @@ const services = [
     },
     {
         number: '03',
-        title: 'Commercial & investment',
-        copy: 'Practical support for investors, business owners, and clients exploring commercial opportunities.',
+        title: 'Client-Focused Service',
+        copy: 'Responsive, clear communication, and a personal approach for the entire procedure',
         link: 'Explore opportunities',
     },
 ]
 
-const steps = [
-    ['Listen', 'We start with your priorities, timing, and the outcome that matters most.'],
-    ['Plan', 'You receive a clear, considered strategy tailored to the market and your goals.'],
-    ['Move', 'From negotiation to closing, every detail is handled with calm, responsive care.'],
-]
 
 const googleReviewsUrl = 'https://www.google.com/maps/place/Flora+Li,+MBA+%26+MCNE,+Broker/@43.8448436,-79.3600894,915m/data=!3m2!1e3!4b1!4m6!3m5!1s0x882b431ae463bb11:0x7b3a8a30d93b53d1!8m2!3d43.8448436!4d-79.3575145!16s%2Fg%2F11m86mgcgv?entry=ttu'
 
@@ -149,9 +144,9 @@ function App() {
                 <section className="hero-section" aria-labelledby="hero-title">
                     <div className="hero-copy">
                         <p className="eyebrow"><span/> Real estate, personally guided</p>
-                        <h1 id="hero-title">Your next move,<br/><em>made thoughtfully.</em></h1>
+                        <h1 id="hero-title">Make confident real estate decisions,<br/><em>in Oakville & GTA</em></h1>
                         <p className="hero-intro">Residential buying and selling, commercial real estate, and investment
-                            guidance across Markham and the Greater Toronto Area.</p>
+                            guidance across Oakville and the Greater Toronto Area.</p>
                         <div className="hero-actions">
                             <a className="button button-dark" href="tel:+19054668776">Let’s talk <span
                                 aria-hidden="true">↗</span></a>
@@ -214,35 +209,11 @@ function App() {
                     </div>
                 </section>
 
-                <section className="approach-section section-pad" id="approach">
-                    <div className="section-label">03 · The approach</div>
-                    <div className="approach-content">
-                        <p className="kicker">Calm, clear, considered</p>
-                        <h2>Good decisions start<br/>with a good conversation.</h2>
-                        <div className="steps">
-                            {steps.map(([title, copy], index) => (
-                                <article className="step" key={title}><span>0{index + 1}</span>
-                                    <div><h3>{title}</h3><p>{copy}</p></div>
-                                </article>
-                            ))}
-                        </div>
-                    </div>
-                </section>
-
                 <section className="credentials-section">
                     <div className="credentials-copy">
                         <p className="kicker">Experience that shows</p>
                         <h2>Award-winning service, grounded in trust.</h2>
                         <div className="credentials-body">
-                            <div className="award-grid" aria-label="Awards and credentials">
-                                <div><strong>Ovation Award</strong><span>2025</span></div>
-                                <div><strong>Gold Award</strong><span>2024</span></div>
-                                <div><strong>President Award</strong><span>2022 & 2023</span></div>
-                                <div><strong>Platinum Award</strong><span>2021</span></div>
-                                <div><strong>MCNE</strong><span>Negotiation expertise</span></div>
-                                <div><strong>MBA</strong><span>Business insight</span></div>
-                            </div>
-
                             <aside className="reviews-panel" id="reviews" aria-labelledby="reviews-title">
                                 <div className="reviews-heading">
                                     <div>
@@ -303,6 +274,9 @@ function App() {
                             aria-hidden="true">↗</i></a>
                         <a className="contact-line" href="https://www.linkedin.com/in/florafangli/" target="_blank"
                            rel="noreferrer"><span>Professional profile</span><strong>LinkedIn</strong><i
+                            aria-hidden="true">↗</i></a>
+                         <a className="contact-line" href="https://wa.me/19054668776" target="_blank"
+                           rel="noreferrer"><span>WhatsApp</span><strong>905.466.8776</strong><i
                             aria-hidden="true">↗</i></a>
 
                     </div>
