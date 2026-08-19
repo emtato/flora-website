@@ -5,19 +5,19 @@ import marketWatch from "./assets/IMG_2830.jpeg"
 
 const services = [
     {
-        number: '01',
+        number: '',
         title: 'Buy and Sell with confidence',
         copy: 'attentive listening, personalized guidance with experience and integrity',
         link: 'Discuss selling',
     },
     {
-        number: '02',
+        number: '',
         title: 'Find the right home',
         copy: 'Help clients understand their needs and priorities, plan, and take action at the right timing.',
         link: 'Start your search',
     },
     {
-        number: '03',
+        number: '',
         title: 'Client-Focused Service',
         copy: 'Responsive, clear communication, and a personal approach for the entire procedure',
         link: 'Explore opportunities',
