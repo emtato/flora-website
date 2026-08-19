@@ -7,7 +7,7 @@ const services = [
     {
         number: '',
         title: 'Buy and Sell with confidence',
-        copy: 'attentive listening, personalized guidance with experience and integrity',
+        copy: 'Attentive listening, personalized guidance with experience and integrity',
         link: 'Discuss selling',
     },
     {
